@@ -1,0 +1,403 @@
+/* COLORS
+	Body - #414135 
+	Wrapper - #98978c
+	Navigation - #5b5b4f
+	Links/Active/Hover - #e34c1d
+*/
+
+/* CSS RESET */
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+
+
+/* General Page Styles */
+
+html{
+	width: 100%;
+	min-width: 960px;
+}
+
+body{
+	margin: 0 auto;
+	font-family: Verdana, Arial, sans-serif;
+	background-image: url("../images/background.png");
+	color: #fff;
+}
+
+#wrapper{
+	position: relative;
+}
+
+a{
+	text-decoration: none;
+}
+
+/* Navigation */
+
+#nav{
+	overflow: auto;
+}
+
+#nav img{
+	background-image: url("../images/greenBG.png");
+	background-repeat: no-repeat;
+	background-size: 940px auto;
+	background-position: center;
+	max-width: 100%;
+	height: auto;
+	margin-left: auto;
+    margin-right: auto;
+    display: block;
+    position: relative;
+    float: left;
+    z-index: 1;
+}
+
+#logo{
+	background-image: url("../images/logo.png");
+	background-repeat: no-repeat;
+	height: 101px;
+	text-indent: -999999px;
+	position: relative;
+	z-index: 5;
+	margin: 10px 0 0 10px;
+}
+
+#globalNav{
+	width: 100%;
+	position: absolute;
+	top: 5%;
+	z-index: 5;
+}
+
+#globalNav ul{
+	width: 320px;
+	margin: 0 auto;
+}
+
+#globalNav li{
+	float: left;
+	list-style: none;
+	font-family: 'Quicksand', sans-serif;
+	font-size: 17px;
+	padding-right: 40px;
+}
+
+#download_now{
+	font-family: 'Quicksand', sans-serif;
+	font-size: 17px;
+	padding-right: 20px;
+	float: right;
+	display: inline;
+}
+
+#active{
+	color: #e34c1d;
+}
+
+a:link{
+	color: #fff;
+}
+
+a:visited{
+	color: #fff;
+}
+
+a:hover{
+	color: #e34c1d;
+}
+
+/* Content */
+
+#content{
+	clear: both;
+	width: 940px;
+	margin: 0 auto;
+	/*padding-top: 20px;
+	padding-bottom: 20px;*/
+	background-color: #414135;
+	background-image: url("../images/contentBG.png");
+	-webkit-box-shadow: 0px 0px 12px rgba(50, 50, 50, 0.7);
+	-moz-box-shadow: 0px 0px 12px rgba(50, 50, 50, 0.7);
+	box-shadow: 0px 0px 12px rgba(50, 50, 50, 0.7);
+	
+}
+
+#cta{
+	float: left;
+	height: 345px;
+	background-color: #414135;
+	background-image: url("../images/contentBG.png");
+}
+
+#downloadButton{
+	position: relative;
+	top: -120px;
+	left: 20px;
+}
+	
+#subcategories{
+	padding-top: 20px;
+	float: left;
+	width: 940px;
+	background-color: #414135;
+	background-image: url("../images/contentBG.png");
+}
+
+#about, #features, #angel, #kristy{
+	width: 300px;
+	background-color: #79786a;
+	float: left;
+	margin-right: 20px;
+	background-image: url("../images/headerBG.png");
+	background-repeat: no-repeat;
+	margin-bottom: 20px;
+}
+
+#requirments, #sean{
+	width: 300px;
+	background-color: #79786a;
+	float: left;	
+	background-image: url("../images/headerBG.png");
+	background-repeat: no-repeat;
+}
+
+h2{
+	height: 48px;
+	font-family: 'Quicksand', sans-serif;
+	color: #fff;
+	font-size: 22px;
+	letter-spacing: 2px;
+	padding: 10px 0 0 10px;
+}
+
+#about-container{
+	background-image:url(../images/about-bg.png);
+	width:940px;
+	height:345px;
+}
+.about-content{
+	padding:10px;
+	font-size: 15px;
+	font-family: 'Quicksand', sans-serif;
+
+}
+.about-content h2{
+	height: 28px;
+	font-family: 'Quicksand', sans-serif;
+	color: #fff;
+	font-size: 22px;
+	letter-spacing: 2px;
+	padding: 10px 0 0 10px;
+	
+}
+.about-content p{
+	padding:0 0 0 30px;
+}
+
+
+.description, .projectRole, .email{
+	padding: 0 10px 10px 10px;
+	font-size: 13px;
+	list-style: none;
+}
+
+.description ul{
+	display:block;
+}
+
+.description ul li{
+	list-style-type: square !important;
+}
+
+.email{
+	font-size: 12px;
+}
+.email a:hover{
+	color: #000;
+}
+.memberPhoto{
+	padding-left: 10px;
+	
+}
+	
+#overview{
+	width: 300px;
+	background-image: url("../images/headerBG.png");
+	background-repeat: no-repeat;
+	float: left;
+	background-color: #79786a;
+	height: 300px;
+}
+
+#overview ul{
+	margin-top: 30px;
+}
+
+#overview li{
+	list-style: none;
+	padding-bottom: 25px;
+}
+
+.overview_info{
+	position: relative;
+	top: -20px;
+	font-size: 18px;
+	padding-left: 10px;
+}
+
+.icon{
+	padding-left: 10px;
+	position: relative;
+	top: -15px;
+	width: 35px;
+}
+
+#overview li:last-child{
+	padding-bottom: 0px;
+}
+
+#overview p{
+	float: right;
+	padding: 8px;
+	margin: 0 10px 0 0;
+	background-color: #e34c1d;
+	font-size: 15px;
+	font-family: Futura, Verdana, sans-serif;
+	font-family: 'Raleway', cursive;
+	-webkit-box-shadow: 0px 0px 12px rgba(50, 50, 50, 0.7);
+	-moz-box-shadow: 0px 0px 12px rgba(50, 50, 50, 0.7);
+	box-shadow: 0px 0px 12px rgba(50, 50, 50, 0.7);
+}
+
+#overview a:link{
+	color: #fff;
+}
+
+#overview a:visited{
+	color: #fff;
+}
+
+#overview a:hover{
+	color: #000;
+}
+
+#video{
+	float: right;
+	width: 620px;
+	height: 300px;
+	background-color: #79786a;
+	margin-left: 20px;
+	margin-bottom: 20px;
+}
+
+#images{
+	clear: both;
+	width: 940px;
+	height: 205px;
+	background-color: #6a695c;
+	padding-bottom: 9px;
+}
+
+#images li{
+	list-style: none;
+	float: left;
+	border: solid 10px #98978c;
+	margin: 10px 0 10px 10px;
+}
+
+#images li:hover{
+	border-color: #e34c1d;
+}
+
+#learn_more{
+	float: left;
+	background-color: #6a695c;
+	background-image: url("../images/lgHeaderBg.png");
+	background-repeat: no-repeat;
+	margin-bottom: 20px;
+}
+
+.hidden 
+{ 
+	display: none; 
+}
+
+.unhidden 
+	{ 
+	display: block;
+}
+
+/* Footer */
+
+#footer{	
+	clear: both;
+	height: 50px;
+	background-image: url("../images/footer.png");
+	background: rgb(0, 0, 0);
+	background: rgba(0, 0, 0, .4);
+	-webkit-box-shadow: 0px 0px 12px rgba(50, 50, 50, 0.7);
+	-moz-box-shadow: 0px 0px 12px rgba(50, 50, 50, 0.7);
+	box-shadow: 0px 0px 12px rgba(50, 50, 50, 0.7);
+}
+
+#footerLinks{
+	width: 940px;
+	margin: 0 auto;
+}
+
+#footerLinks ul{
+	background-image: url("../images/greenBG.png");
+	height: 50px;
+	background: rgb(0, 0, 0);
+	background: rgba(0, 0, 0, .2);
+}
+
+#footerLinks li{
+	font-family: 'Quicksand', sans-serif;
+	list-style: none;
+	font-size: 12px;
+	padding-top: 15px;
+	padding-left: 20px;
+	float: left;
+}
+
+#footer li:last-child{
+	float: right;
+	padding-right: 20px;
+}
+
+/* RESPONSIVE iPHONE
+--------------------
+------------------*/
+
+@media only screen and (max-width: 480px) {
+
+	body{width:100%;}
+	img{max-width:100%;}
+}

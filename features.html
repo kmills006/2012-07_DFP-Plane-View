@@ -1,0 +1,96 @@
+<!DOCTYPE HTML>
+
+<html lang="en">
+
+	<head>
+	<meta charset="utf-8"/>
+		<title>PlaneView - Features</title>
+	<link href="css/main.css" rel="stylesheet" type="text/css" />
+	<link href='http://fonts.googleapis.com/css?family=Pontano+Sans' rel='stylesheet' type='text/css'/>
+	<link href='http://fonts.googleapis.com/css?family=Allerta' rel='stylesheet' type='text/css'/>
+	<link href='http://fonts.googleapis.com/css?family=Quicksand' rel='stylesheet' type='text/css'/>
+	<link href='http://fonts.googleapis.com/css?family=Raleway:100' rel='stylesheet' type='text/css'/>
+	
+	<meta name="viewport" content="width=device-width, initial-scale=1"/>
+	
+	<link rel="shortcut icon" href="favicon.ico"/>
+	
+	<script src="js/jquery-1.7.2.min.js"></script>
+	<script src="js/lightbox.js"></script>
+	<link href="css/lightbox.css" rel="stylesheet" />
+	
+		<script type="text/javascript">
+			 function unhide(learn_more) {
+			 var item = document.getElementById(learn_more);
+			 if (item) {
+			 item.className=(item.className=='hidden')?'unhidden':'hidden';
+			 }
+			 }
+		</script>
+	</head>	
+	
+	<body>
+		<div id="wrapper">
+			<nav id="nav">
+				<img src="images/bigHeader_BG1.png" alt="Full Sail Studios"/>
+				<h1 id="logo"><a href="index.html">Plane View</a></h1>
+				<div id="globalNav">
+						<ul>
+							<li><a href="index.html">HOME</a></li>
+							<li id="active">FEATURES</li>
+							<li><a href="about.html">ABOUT</a></li>
+						</ul>	
+						
+						<!-- <p id="download_now"><a href="#">DOWNLOAD NOW</a></p> -->			
+				</div> <!-- END OF GLOBAL NAV -->
+			</nav>
+			<div id="content">
+				<section id="overview">
+					<h2>Overview</h2>
+						<ul>
+							<li><img class="icon" src="images/classroom_icon.png" alt="Classroom Icon"/><span class="overview_info">Search by Classrooms</span></li>
+							<li><img class="icon" src="images/departmentIcon.png" alt="Coffee Icon"/><span class="overview_info">Search by Departments</span></li>		
+							<li><img class="icon" src="images/coffeeIcon.png" alt="Classroom Icon"/><span class="overview_info">Search by Amenties</span></li>
+						</ul>
+					
+					<p><a href="javascript:unhide('learn_more');">Learn More</a></p>
+				</section> <!-- END OF OVERVIEW -->
+					
+				<section id="video">
+					<object width="620" height="300"><param name="movie" value="http://www.youtube.com/v/WuH1nCFJV6k&rel=0"></param><param name="allowFullScreen" value="true"></param><param name="allowscriptaccess" value="always"></param><embed src="http://www.youtube.com/v/WuH1nCFJV6k&rel=0" type="application/x-shockwave-flash" width="620" height="300" allowscriptaccess="always" allowfullscreen="true"></embed></object>
+				</section> <!-- END OF VIDEO -->
+					
+				<section id="learn_more" class="hidden">
+					<h2>Details</h2>
+						<p class="description">Based on the Building Maps that can be located on Full Sail's Propeller site, Plane View uses an interactive approach to help students and faculty find their way around campus.  The user has the option of using the search bar that will auto fill rooms as you type them out, or the option to click through the buildings to get to the specific room that they are trying to find.</p>
+						<p class="description">
+							Plane View will continue to be updated and refined in future builds based on the needs of the students and the faculty of Full Sail University.</p>
+				</section> <!-- END OF learn_more -->
+				
+				<section id="images">
+					<ul>
+						<li><a href="images/screenshots/Screen1.png" rel="lightbox" title="Full Sail University Campus"><img src="images/screenshots/ThumbScreen1.png" alt="Screenshot"/></a></li>
+						<li><a href="images/screenshots/4a.png" rel="lightbox" title="FS4A-Web"><img src="images/screenshots/ThumbFS4A.png" alt="FS4A-Web"/></a></li>
+						<li><a href="images/screenshots/3c.png" rel="lightbox" title="FS3C"><img src="images/screenshots/ThumbFS3C.png" alt="FS3C"/></a></li>
+						<li><a href="images/screenshots/2_firstFloor.png" rel="lightbox" title="FS2-First Floor"><img src="images/screenshots/ThumbFS2_firstFloor.png" alt="FS2-First Floor"/></a></li>
+					</ul>
+				</section> <!-- END OF IMAGES -->
+			
+			</div> <!-- END OF CONTENT -->
+			
+			<div id="footer">
+				<div id="footerLinks">
+					<ul>
+						<li><a href="index.html">HOME</a></li>
+						<li>|</li>
+						<li><a href="features.html">FEATURES</a></li>
+						<li>|</li>
+						<li><a href="about.html">ABOUT</a></li>
+						<li>designed and developed by DataFire.</li>
+					</ul>
+				</div>
+			</div> <!-- END OF FOOTER -->
+			
+		</div> <!-- END OF WRAPPER -->
+	</body>
+</html>

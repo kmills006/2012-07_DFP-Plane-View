@@ -1,0 +1,136 @@
+<!DOCTYPE HTML>
+
+<html lang="en">
+
+	<head>
+	<meta charset="utf-8"/>
+		<title>PlaneView - Let us help you get around Full Sail University</title>
+	<link href="css/main.css" rel="stylesheet" type="text/css" />
+	<link href='http://fonts.googleapis.com/css?family=Pontano+Sans' rel='stylesheet' type='text/css'/>
+	<link href='http://fonts.googleapis.com/css?family=Allerta' rel='stylesheet' type='text/css'/>
+	<link href='http://fonts.googleapis.com/css?family=Quicksand' rel='stylesheet' type='text/css'/>
+	<link rel="shortcut icon" href="favicon.ico"/>
+	
+	<meta name="viewport" content="width=device-width, initial-scale=1"/>
+	
+	<!-- SWFObject embed by Geoff Stearns geoff@deconcept.com http://blog.deconcept.com/swfobject/ -->
+	<script type="text/javascript" src="js/swfobject.js"></script>
+	
+	</head>	
+	
+	<body>
+		<div id="wrapper">
+
+			<nav id="nav">
+				<img id="fullSailStudios" src="images/bigHeader_BG1.png" alt="Full Sail Studios"/>
+				<h1 id="logo"><a href="index.html">Plane View</a></h1>
+				<div id="globalNav">
+					<ul>
+						<li id="active">HOME</li>
+						<li><a href="features.html">FEATURES</a></li>
+						<li><a href="about.html">ABOUT</a></li>
+					</ul>
+					
+					<!-- <p id="download_now"><a href="#">DOWNLOAD NOW</a></p> -->
+				</div> <!-- END OF GLOBAL NAV -->
+			</nav> <!-- END OF NAV -->
+			
+			<div id="content">
+				<article id="cta">
+					<img src="images/cta.png" alt="Can't find your new classes? Looking for this distribution center" width="940" height="345"/>
+						<!-- <img id="downloadButton" src="images/downloadButton.png" alt="Download the free Application"/> -->
+						
+					<div id="flashcontent" style="width:215px; height:180px;">
+						<a href="http://get.adobe.com/flashplayer/"><img src="js/flashAltContent.png" alt="Please download the latest version of Adobe Flash Player"/></a>
+					</div>
+				
+					<script type="text/javascript">
+						// <![CDATA[
+						
+						// version 9.0.115 or greater is required for launching AIR apps.
+						var so = new SWFObject("js/AIRInstallBadge.swf", "Badge", "215", "180", "9.0.115", "#FFFFFF");
+						so.useExpressInstall('js/expressinstall.swf');
+						
+						// these parameters are required for badge install:
+						so.addVariable("airversion", "1.0"); // version of AIR runtime required
+						so.addVariable("appname", "Plane View"); // application name to display to the user
+						so.addVariable("appurl", "http://wddbs.com/~cmiller/dfp/project_02/js/PlaneView_V-0.0.6.air"); // absolute URL (beginning with http or https) of the application ".air" file
+						
+						// these parameters are required to support launching apps from the badge (but optional for install):
+						so.addVariable("appid", "MyApplication"); // the qualified application ID (ex. com.gskinner.air.MyApplication)
+						so.addVariable("pubid", ""); // publisher id
+						
+						// this parameter is required in addition to the above to support upgrading from the badge:
+						so.addVariable("appversion", "0.0.6"); // AIR application version
+						
+						// these parameters are optional:
+						so.addVariable("image", "js/4AWeb.png"); // URL for an image (JPG, PNG, GIF) or SWF to display in the badge (205px wide, 170px high)
+						so.addVariable("appinstallarg", "installed from web"); // passed to the application when it is installed from the badge
+						so.addVariable("applauncharg", "launched from web"); // passed to the application when it is launched from the badge
+						so.addVariable("helpurl", "help.html"); // optional url to a page containing additional help, displayed in the badge's help screen
+						so.addVariable("hidehelp", "false"); // hides the help icon if "true"
+						so.addVariable("skiptransition", "false"); // skips the initial transition if "true"
+						so.addVariable("titlecolor", "#00AAFF"); // changes the color of titles
+						so.addVariable("buttonlabelcolor", "#e34c1d"); // changes the color of the button label
+						so.addVariable("appnamecolor", "#00AAFF"); // changes the color of the application name if the image is not specified or loaded
+						
+						// these parameters allow you to override the default text in the badge:
+						// supported strings: str_error, str_err_params, str_err_airunavailable, str_err_airswf, str_loading, str_install, str_launch, str_upgrade, str_close, str_launching, str_launchingtext, str_installing, str_installingtext, str_tryagain, str_beta3, str_beta3text, str_help, str_helptext
+						so.addVariable("str_err_airswf", "<u>Running locally?</u><br/><br/>The AIR proxy swf won't load properly when this demo is run from the local file system."); // overrides the error text when the AIR proxy swf fails to load
+						
+						so.write("flashcontent");
+						
+						// ]]>
+					</script>
+				</article> <!-- END OF CTA -->
+				
+				<article id="subcategories">
+					<section id="about">
+						<h2>About</h2>
+						<p class="description">Plane View is an desktop application to help students and faculty at Full Sail University find their way around what can sometimes be a very confusing campus.</p>
+					<p class="description">It brings the school to life in a whole new way. You can search for your upcoming classes, search for the location of different departments or just explore the campus through an interactive map.</p>
+					</section> <!-- END OF ABOUT -->
+					
+					<section id="features">
+						<h2>Features</h2>
+						<p class="description">With Plane View you can either use the autofill search section to look up your classes or click on the specific buildings to find the class that you are looking for.</p>
+						<p class="description">The departments button will show a list of the departments and other information including there location.  Future iterations will include a key that will show outlet and lounge locations.</p>
+					
+					</section> <!-- END OF FEATURES -->
+					
+					<section id="requirments">
+						<h2>Requirments</h2>
+						<p class="description">Windows
+							<ul class="requirements-list">
+								<li>2.33GHz or faster x86-compatible processor or Intel&reg; Atom</li>
+								<li>Microsoft&reg; Windows&reg; XP Home or later.</li>
+								<li>512MB of RAM (1GB recommended)</li>
+							</ul>
+						</p>
+						<p class="description">Mac OS X
+
+							<ul class="requirements-list">
+								<li>Intel Core? Duo or faster processor</li>
+								<li>Mac OS X v10.6 or v10.7</li>
+								<li>512MB of RAM (1GB recommended)</li>
+							</ul>
+						</p>
+					</section> <!-- END OF REQUIRMENTS -->
+				</article> <!-- END OF SUBCATEGORIES -->
+			</div> <!-- END OF CONTENT -->
+			
+			<div id="footer">
+				<div id="footerLinks">
+					<ul>
+						<li><a href="index.html">HOME</a></li>
+						<li>|</li>
+						<li><a href="features.html">FEATURES</a></li>
+						<li>|</li>
+						<li><a href="about.html">ABOUT</a></li>
+						<li>designed and developed by DataFire.</li>
+					</ul>
+				</div>
+			</div> <!-- END OF FOOTER -->
+		</div> <!-- END OF WRAPPER -->
+	</body>
+</html>
